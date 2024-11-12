@@ -1,6 +1,6 @@
 import { View, Text, Image } from "react-native";
 import { styles } from "./styles";
-import mastercard from '../../../assets/mastercard.png';
+import mastercard from '../../assets/mastercard.png';
 
 export const Card = () => {
     return (
