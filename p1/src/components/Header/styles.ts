@@ -9,5 +9,10 @@ export const styles = StyleSheet.create({
         paddingTop: 40,
         paddingBottom: 100,
 
+    },
+    headerSettingsIcon: {
+        backgroundColor: '#5C0098',
+        padding: 20,
+        borderRadius: 50,
     }
 })
