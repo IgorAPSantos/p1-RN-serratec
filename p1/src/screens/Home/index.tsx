@@ -1,6 +1,6 @@
-import { View } from 'react-native';
+import { Text, View } from 'react-native';
 import { styles } from './styles';
-import { FooterScrollView } from '../../components/FooterScrollView';
+import { OptionsList } from '../../components/OptionsList';
 import { Card } from '../../components/Card';
 import { CardDetails } from '../../components/CardDetails';
 import { Header } from '../../components/Header';
@@ -13,8 +13,8 @@ export default function Home() {
                 <Card />
                 <CardDetails />
             </View>
-            <FooterScrollView />
-
+            <Text style={styles.containerText}>Do que você precisa?</Text>
+            <OptionsList />
         </View >
     );
 }
