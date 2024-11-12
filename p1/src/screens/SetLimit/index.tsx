@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, TextInput, Image } from 'react-native';
-import Slider from '@react-native-community/slider';
+import { View, Text, Image } from 'react-native';
 import { styles } from './styles';
-import Pencil from '../../../assets/Pencil.png';
+import Pencil from '../../assets/Pencil.png';
 import { SliderInput } from '../../components/SliderInput';
 import { EndPageButton } from '../../components/EndPageButton';
 export default function SetLimit() {
